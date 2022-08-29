@@ -1,8 +1,133 @@
 <html>
-    <head>
 
-    </head>
-    <body>
-        <h1>Amad</h1>
-    </body>
+<head>
+    <title> html classes</title>
+    <style>
+        .num1 {
+            background-color: blueviolet;
+            color: white;
+            border: 20px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        .num2 {
+            background-color: rgb(122, 184, 23);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="num1">
+        <h6>Ajk Government</h6>
+        <h5>Ajk Government</h5>
+        <h4>Ajk Government</h4>
+        <h3>Ajk Government</h3>
+        <h2>Ajk Government</h2>
+        <h1>Ajk Government</h1>
+        <p style="border: 3px solid white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi assumenda
+            voluptatem laboriosam neque est
+            temporibus, labore, omnis quaerat adipisci veniam quo architecto delectus veritatis facere voluptatum
+            pariatur
+            nostrum recusandae sint.
+            <strong style="border: 1px solid red;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laboriosam sed quod cum ipsam similique?
+                Amet iste
+                hic ducimus autem quaerat modi sit excepturi quibusdam magni eveniet ullam, alias aut.
+            </strong>
+        </p>
+        <button onclick="myFunction()">Hide Elements
+        </button>
+        <button onclick="myShowFunction()">Display Elements
+        </button>
+
+        <h2 class="city">London</h2>
+        <p> London is the capital of England.</p>
+
+        <h2 class="city">Paris</h2>
+        <p> Paris is the capital of France.</p>
+
+        <h2 class="city">Tokyo</h2>
+        <p>Tokyo is the capital of Japan</p>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+            }
+            function myShowFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "block";
+                }
+            }
+        </script>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolor, eum veritatis provident quis
+            dicta
+            repellendus fugiat odio aperiam culpa nam obcaecati atque saepe, repellat nulla voluptatibus hic sequi!</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nesciunt dolores dignissimos incidunt ratione
+            perferendis repellat et illum ipsa! Quisquam perferendis, distinctio unde enim reprehenderit incidunt
+            praesentium deserunt omnis blanditiis?</p>
+    </div>
+
+    <div class="num2">
+        <h1>Ajk Government</h1>
+        <h2>Ajk Government</h2>
+        <h3>Ajk Government</h3>
+        <h4>Ajk Government</h4>
+        <h5>Ajk Government</h5>
+        <h6>Ajk Government</h6>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi assumenda voluptatem laboriosam neque est
+            temporibus, labore, omnis quaerat adipisci veniam quo architecto delectus veritatis facere voluptatum
+            pariatur
+            nostrum recusandae sint.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laboriosam sed quod cum ipsam similique? Amet
+            iste
+            hic ducimus autem quaerat modi sit excepturi quibusdam magni eveniet ullam, alias aut.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias dolor, eum veritatis provident quis
+            dicta
+            repellendus fugiat odio aperiam culpa nam obcaecati atque saepe, repellat nulla voluptatibus hic sequi!</p>
+        </p>
+        <button onclick="myFunction()">Hide Elements
+        </button>
+        <button onclick="myShowFunction()">Display Elements
+        </button>
+
+        <h2 class="city">London</h2>
+        <p> London is the capital of England.</p>
+
+        <h2 class="city">Paris</h2>
+        <p> Paris is the capital of France.</p>
+
+        <h2 class="city">Tokyo</h2>
+        <p>Tokyo is the capital of Japan</p>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+            }
+            function myShowFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "block";
+                }
+            }
+        </script>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nesciunt dolores dignissimos incidunt ratione
+            perferendis repellat et illum ipsa! Quisquam perferendis, distinctio unde enim reprehenderit incidunt
+            praesentium deserunt omnis blanditiis?</p>
+    </div>
+
+</body>
+
 </html>
